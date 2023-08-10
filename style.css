@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Nunito";
+    transition: all .2s ease-in-out;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    padding: .5rem 1.2rem;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 1.5rem 6%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.links a{
+    font-weight: bold;
+    padding: 0.75rem 0;
+    display: block;
+    font-size: 2rem;
+    margin: 0rem 2rem;
+    text-transform: capitalize;
+   
+}
+
+
+
+
+/* home css starts */
+
+.home{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.hero_bg{
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    min-height: 100vh;
+    width: 100%;
+    z-index: -5;
+}
+
+.hero_bg .bg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bg img{
+    position: absolute;
+    top: 0; left: 0 ; right: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: -5;
+}
+
+
+
+.overlay{
+ position: absolute;
+ top: 0; left: 0; right: 0;
+ width: 100%;
+ min-height: 100vh;
+ object-fit: cover;
+ z-index: -2;
+ background: rgba(0, 0, 0, .3);
+}
+
+.content-welcome{
+    position: absolute;
+    top: 35rem;
+    left: 10%;
+}
+
+.content-welcome h1{
+    font-size: 5rem;
+    color: #ddd;
+}
+.content-welcome h2{
+    font-size: 5.5rem;
+    color: #ddd;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 5rem;
+}
+
+.content-welcome p{
+    font-size: 1.8rem;
+    color: #ddd;
+    letter-spacing: 1.5px;
+    margin-top: .5rem;
+}
+
+.mission{
+ position: absolute;
+ top: 45rem;
+ right: 10%;
+}
+
+.mission h2{
+    font-size: 2.2rem;
+    color: #ddd;
+}
+
+
+/* home css ends */
+
+
+
+
+.teach{
+    margin-top: 4rem;
+    background-image:linear-gradient(to left, rgba(0,0,0,.5),rgba(0,0,0,.5) ), url(./images/prayer.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 40rem; 
+    width: 100%;
+    position: relative;
+}
+
+.teach h2{
+    font-family: "Nunito";
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 2.5rem;
+    
+}
+
+.teach  h1{
+    font-family: "Nunito";
+    text-align: center;
+    color: #fff;
+    margin-top: 6rem;
+    padding-left: 5rem;
+    font-size: 3rem;
+}
+
+.teach .content{
+    position: absolute;
+    top: 25%; left: 40%;
+    font-family: "Nunito";
+    transform: translateX(-50%);
+    text-align: start;
+    font-size: 2.2rem;
+}
+
+.teach .content h3{
+    margin-bottom: 3rem;
+    font-family: "Nunito";
+}
+
+.teach p{
+    margin-top: -3rem;
+    font-family: "Nunito";
+}
+
+
+
+
+
+/* sign up css */
+
+.heading h1{
+    font-size: 3rem;
+    color: rgb(0, 81, 255);
+}
+
+.signup{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.8),rgba(0,0,0,.8) ), url(./img/signup.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50rem;
+   width: 80rem;
+   
+}
+
+form{
+    background-color: #ddd;
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup .img-ctn{
+    height: 100%;
+    width:40rem ;
+    position: relative;
+   }
+
+   .overlay1{
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background: rgba(0, 0, 0, .7);
+   }
+   .img-ctn .content{
+       z-index: 999;
+       position: absolute;
+       top: 10%; left: 5%;
+       color: #fff;
+   }
+   .img-ctn .content1{
+       z-index: 999;
+       position: absolute;
+       font-size: 2rem;
+       border: .1rem solid #fff;
+       padding: .5rem;
+       top: 90%; right: 5%;
+       color: #fff;
+   }
+
+   .img-ctn .content h1{
+       font-size: 2.5rem;
+   }
+   
+   .img-ctn img{
+       width: 100%;
+       height: 100%;
+   }
+
+   form h2{
+       font-size: 1.75rem;
+       color: #333;
+       margin: 1.5rem 0;
+   }
+
+   form input{
+       height: 4rem;
+       width: 100%;
+       background: transparent;
+       padding: 1rem;
+       border: none;
+       border-bottom: .1rem solid #333;
+   }
+
+   .signupbtn{
+
+       height: 5rem;
+       width: 100%;
+       margin-top: 2rem;
+   }
+
+   .login-link{
+       margin-top: 3rem;
+       font-size: 1.8rem;
+   }
+
+
+   form button{
+       display: block;
+       width: 100%;
+       color: #fff;
+       background-color: rgb(0, 81, 255);
+       margin-top: 2rem;
+       font-weight: bold;
+       border: none;
+       height: 4rem;
+   }
+
+
+
+
+
+      /* login css start */
+
+      .login {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.8),rgba(0,0,0,.8) ), url(./img/login.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        background-color: red;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .right-box i{
+        font-size: 2.5rem;
+    }
+    
+    
+      .login .container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 50rem;
+       width: 80rem;
+       
+    }
+    
+     .login form{
+        background-color: #ddd;
+        height: 100%;
+        width: 40rem;
+        display: flex;
+        align-items: flex-start;
+        padding: 2rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .login .img-ctn{
+        height: 100%;
+        width:40rem ;
+        position: relative;
+       }
+    
+      .login .overlay1{
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        background: rgba(0, 0, 0, .7);
+       }
+      .login .img-ctn .content{
+           z-index: 999;
+           position: absolute;
+           top: 10%; left: 5%;
+           color: #fff;
+       }
+       .login .img-ctn .content1{
+           z-index: 999;
+           position: absolute;
+           font-size: 2rem;
+           border: .1rem solid #fff;
+           padding: .5rem;
+           top: 90%; right: 5%;
+           color: #fff;
+       }
+    
+      .login .img-ctn .content h1{
+           font-size: 2.5rem;
+       }
+       
+      .login .img-ctn img{
+           width: 100%;
+           height: 100%;
+       }
+    
+     .login  form h2{
+           font-size: 1.75rem;
+           color: #333;
+           margin: 1.5rem 0;
+       }
+    
+     .login  form input{
+           height: 4rem;
+           width: 100%;
+           background: transparent;
+           padding: 1rem;
+           border: none;
+           border-bottom: .1rem solid #333;
+       }
+    
+       .loginbtn{
+    
+           height: 5rem;
+           width: 100%;
+           margin-top: 2rem;
+       }
+    
+       .signup-link{
+           margin-top: 3rem;
+           font-size: 1.8rem;
+       }
+    
+    
+      .login form button{
+           display: block;
+           width: 100%;
+           color: #fff;
+           background-color: rgb(0, 81, 255);
+           margin-top: 2rem;
+           font-weight: bold;
+           border: none;
+           height: 4rem;
+       }
+    
+    
+    
+       /* login css ends */
+
+
+
+
+          /* give css start */
+   .give {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/72023756015ccc1696e2b7c6a4241dda.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form h1{
+    font-size: 2rem;
+    color:#fff;
+}
+
+
+  .give .container{
+   background-color: rgba(54, 69, 79, .3);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 50rem;
+   position: relative;
+   width: 80rem;
+   
+}
+.give .container button{
+    position: absolute;
+    top: 90%;
+    border: none;
+    right: 4.5rem;
+    background-color: blue;
+    padding: 1rem;
+    color: #fff;
+}
+
+.privacy{
+    position: absolute;
+    top: 90%;
+    left: 4rem;
+}
+
+.container .give_header{
+    position: absolute;
+    top: 4rem; left: 0; right: 0;
+    width: 100%;
+    color: #fff;
+    background-color: blue;
+    padding: 1rem;
+    text-align: start;
+}
+
+.form{
+    position: absolute;
+    top: 12rem;
+    right: 0;
+    width: 90%;
+    padding: 1rem;
+    left: 4rem;
+}
+.form form{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.giveDetails{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+
+}
+.giveDetails p{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    padding: 0 .5rem .5rem;
+    color:#fff ;
+}
+.giveDetails input{
+    height: 4rem;
+    border: none;
+    border-top-right-radius: 1rem;
+    background: rgba(229, 228, 226, .8);
+    padding-left: .5rem;
+    box-shadow:2px 3px rgba(115, 147, 179, .8) ;
+    width: 32rem;
+}
+
+
+  
+
+
+  .give .give-flex{
+      gap: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .privacy p{
+      color: #fff;
+      font-size: 1.3rem;
+  }
+
+
+
+
+
+
+  .select-menu .select-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 4rem;
+    border-radius: .5rem;
+    width: 35rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 .5rem var(--midblue);
+    padding: 1rem;
+    background-color:rgba(114, 114, 242, 0.55) ;
+
+}
+.select-menu ul{
+    list-style: none;
+}
+.select-menu li {
+    max-width: 35rem;
+    padding: 1.2rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: rgba(114, 114, 242, 0.55);
+    border-radius: .5rem;
+    display: flex;
+    box-shadow: 0 0 .5rem var(--lightblue);
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: .8rem;
+}
+
+.options{
+    display: none;
+}
+
+.options.active{
+    display: block;
+}
+
+.option{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.select-menu li:hover{
+    background-color: var(--midblue);
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
+.select-menu input[ type="radio"]{
+    width: 5%;
+}
+
+.give-flex input{
+    border: .1rem solid #000;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: rgba(54, 69, 79, .3);
+    nav-down: none;
+    nav-up: none;
+    border-radius: .5rem;
+}
+
+
+
+
+
+   /* give css ends */
+    
