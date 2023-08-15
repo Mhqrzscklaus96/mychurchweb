@@ -150,7 +150,7 @@ section {
 
 .teach{
     margin-top: 4rem;
-    background-image:linear-gradient(to left, rgba(0,0,0,.5),rgba(0,0,0,.5) ), url(./images/prayer.jpg);
+    background-image:linear-gradient(to left, rgba(0,0,0,.5),rgba(0,0,0,.5) ), url(./img/prayer.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,6 +197,119 @@ section {
     margin-top: -3rem;
     font-family: "Nunito";
 }
+
+
+/* youtube */
+
+  .youtube{
+      margin-top: 4rem;
+      padding: 0;
+  }
+.youtube .heading {
+      font-size: 2.4rem;
+      text-align: center;
+      color: blue;
+  }
+  .youtube .img-ctn{
+      width: 100%;
+      height: 50rem;
+      background-color: red;
+      position: relative;
+  }
+
+  .youtube .img-ctn .content{
+      position: absolute;
+      top: 35%;
+      left: 4rem;
+  }
+  .youtube .img-ctn .content h1{
+      font-size: 4rem;
+      text-transform: uppercase;
+  }
+
+  .youtube .img-ctn .content h2{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+  }
+
+  .youtube .img-ctn .content button{
+      font-size: 1.8rem;
+      background-color: blue;
+      color: #fff;
+      border: none;
+  }
+
+
+  .youtube .img-ctn img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .play_icon{
+      position: absolute;
+      top: 35%; right: 8rem;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      height: 5rem;
+      border: .1rem solid #fff;
+      width: 5rem;
+      padding: 4rem;
+      border-radius: 50%;
+
+  }
+  .play_icon i {
+      font-size: 4rem;
+      color: #fff;
+  }
+
+/* youtube */
+
+
+/* ministry */
+
+   
+  .ministry{
+    margin-top: 4rem;
+    padding: 0;
+}
+.ministry .heading {
+    font-size: 2.4rem;
+    text-align: center;
+    color: blue;
+}
+.ministry .img-ctn{
+    width: 100%;
+    height: 50rem;
+    background-color: red;
+    position: relative;
+}
+
+.ministry .img-ctn .content{
+    position: absolute;
+    top: 35%;
+    left: 4rem;
+}
+.ministry .img-ctn .content h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.ministry .img-ctn .content h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.ministry .img-ctn .content button{
+    font-size: 1.8rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+
+/* ministry */
 
 
 
@@ -554,6 +667,7 @@ form{
    background-color: rgba(54, 69, 79, .3);
    display: flex;
    width: 90vw;
+   height: 100%;
    align-items: flex-start;
    justify-content: center;
    height: 50rem;
@@ -592,6 +706,7 @@ input[type = "submit"]{
     background-color: blue;
     color: #fff;
     margin-top: 1rem;
+    cursor: pointer;
     font-weight: bold;
     border-radius: .5rem;
 }
@@ -668,44 +783,125 @@ input[type = "submit"]{
 
 
 
-  .select-menu .select-btn{
+   .select-btn{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     font-size: 1.5rem;
     cursor: pointer;
     height: 4rem;
     border-radius: .5rem;
-    width: 35rem;
     margin: 1rem 0;
     box-shadow: 0 0 .5rem var(--midblue);
     padding: 1rem;
     background-color:rgba(114, 114, 242, 0.55) ;
 
 }
+
+
+.select-menu{
+    position: relative;
+    width: 100%;
+    
+}
+
+.select-menu1{
+    position: relative;
+    width: 100%;
+}
+
+.select-menu1 ul{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 6rem; left: 0; right: 0;
+    background-color: rgba(0, 0, 0, .9);
+    padding: .5rem .5rem;
+    margin-bottom: 1rem;
+    z-index: 12;
+}
+
+.comment{
+    margin-top: 1rem;
+}
+
+
 .select-menu ul{
     list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 6rem; left: 0; right: 0;
+    background-color: rgba(0, 0, 0, .9);
+    padding: .5rem .5rem;
+    z-index: 12;
 }
 .select-menu li {
-    max-width: 35rem;
     padding: 1.2rem 1rem;
     font-size: 1.8rem;
     font-weight: 400;
     background-color: rgba(114, 114, 242, 0.55);
     border-radius: .5rem;
     display: flex;
+    width: 100%;
+    box-shadow: 0 0 .5rem var(--lightblue);
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: .8rem;
+}
+.select-menu1 li {
+    padding: 1.2rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: rgba(114, 114, 242, 0.55);
+    border-radius: .5rem;
+    display: flex;
+    width: 100%;
     box-shadow: 0 0 .5rem var(--lightblue);
     cursor: pointer;
     justify-content: space-between;
     margin-bottom: .8rem;
 }
 
+  #chevDown{
+    margin-top: -.1rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 2.5rem;
+    border-radius: 50%;
+}
+
+.give p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    color: #333;
+}
+
 .options{
     display: none;
-}
+} 
 
 .options.active{
     display: block;
+} 
+
+
+.options1{
+ display: none;
+}
+
+.options1.active{
+ display: block;
+}
+
+
+
+.option11{
+    height: 4rem;
+    display: flex;
+    align-items: center;
 }
 
 .option{
@@ -719,11 +915,666 @@ input[type = "submit"]{
     background-color: rgba(0, 0, 0, .3);
     color: #fff;
 }
+.select-menu1 li:hover{
+    background-color: var(--midblue);
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
 
 .select-menu input[ type="radio"]{
+    width: 5%;
+}
+.select-menu1 input[ type="radio"]{
     width: 5%;
 }
 
 
    /* give css ends */
     
+
+.menuBtn {
+    display: none;
+}
+
+
+/* contact css */
+
+.contact{
+    margin: 0;
+    padding: 0;
+}
+.contact_hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(114, 114, 242, 0.55);
+    position: relative;
+    top: 0; left: 0;
+}
+.contact_hero .img-ctn{
+    width: 100%;
+    z-index: -10;
+    height: 100%;
+}
+.contact_hero .img-ctn img{
+    width: 100%;
+    height: 100%;
+}
+.contact_content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.contact_content h1{
+    font-size: 8rem;
+    text-transform: capitalize;
+}
+
+.contact_content p{
+    font-size: 2.2rem;
+}
+
+
+.cont_info{
+    margin-top: 6rem;
+    display: grid;
+    background-color: rgba(0,0,0,.8);
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.phone_img{
+    height: 60rem;
+ 
+}
+.phone_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.church_info{
+   position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .church_info .content{
+    position: absolute;
+    top: 4rem; left: 2rem;
+}
+ .church_info .adress{
+    position: absolute;
+    top: 24rem; left: 2rem;
+}
+.church_info .content h1{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.church_info .content p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.church_info .flex{
+   display: flex;
+   align-items: flex-start;
+   gap: 1.5rem;
+}
+
+.adress .flex{
+    margin-bottom: 1.5rem;
+}
+
+.adress .flex h3{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.adress .flex p{
+    color: #fff;
+    font-size: 1.75rem ;
+}
+.adress i{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.member_info h1{
+   font-size: 2rem;
+   color: blue;
+}
+
+.member_info textarea{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-family: "Nunito";
+    background: transparent;
+    border-radius: .5rem;
+}
+
+.member_info input{
+    border: .1rem solid blue;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+.member_info input[type = "submit"]{
+    border: none;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+}
+
+.member_info input[type = "submit"]:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+.phone_img{
+    position: relative;
+}
+.phone_img .overlay1{
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background: rgba(0, 0, 0, .8);
+   }
+   .contenta{
+       position: absolute;
+       top: 4rem;
+       font-size: 2.2rem;
+       left: 2rem;
+       z-index: 10;
+       color: #fff;
+   }
+   .contentb{
+       position: absolute;
+       bottom:  4rem;
+       right: 2rem;
+       z-index: 10;
+       color: #fff;
+       font-size: 2rem;
+   }
+
+/* event css */
+
+  .event{
+      width: 100vw;
+      height: 100vh;
+      background-color: #333;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/72bd0f730a92d6ca7cd9831594701284_1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event .container{
+      background-color: rgba(0, 0, 0, .3);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .event .title{
+      text-align: center;
+      background-color: #333;
+      width: 100%;
+      display: flex;
+      color: #fff;
+      font-size: 1.5rem;
+      align-items: center;
+      justify-content: center;
+      height: 4rem;
+      margin: 2rem 0;
+  }
+
+  .event .evnt{
+      padding: 0 2rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      margin-bottom: .5rem;
+      padding-bottom: .4rem;
+      border-bottom: .1rem solid #fff;
+  }
+  .evnt h1{
+      font-size: 3rem;
+      color: #fff;
+  }
+  .evnt p{
+      font-size: 1.5rem;
+      color: #fff;
+  }
+
+  .evnt h3{
+      font-size: 2rem;
+      padding-bottom: .5rem;
+  }
+  .evnt button{
+      margin: .5rem 0;
+      background-color: #fff;
+      color: blue;
+      font-weight: bold;
+
+      border: none;
+  }
+
+
+/* event css */
+
+/* thanks */
+.thanks{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/72bd0f730a92d6ca7cd9831594701284_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.thanks .content{
+    position: relative;
+    background-color: #1e1e4b;
+    width: 60rem;
+    height: 40rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+
+.thanks .content h1{
+   font-size: 3.8rem;
+   color: #fff;
+}
+
+.thanks .content h2{
+    margin-top: -.5rem;
+   font-size: 1.8rem;
+   color: #fff;
+}
+
+.thanks .content p{
+   font-size: 1.4rem;
+   margin-bottom: 1rem;
+   color: #fff;
+}
+.thanks .content h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+ .indep .date{
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    padding-left: 1.5rem;
+    width: 16rem;
+    left: -3rem;
+}
+ .indep .date h2{
+    font-size: 2rem;
+}
+
+.count-down{
+    position: absolute;
+    top: 70%; right: 12rem;
+    letter-spacing: 2px;
+}
+.count-down h2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.count{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.count div{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    gap: .8rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+/* thanks */
+
+/* indep */
+.Indep{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/praise\ dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Indep .content{
+    position: relative;
+    background-color: rgba(0, 0, 0, .7);
+    width: 60rem;
+    height: 40rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+
+.Indep .content h1{
+   font-size: 3.8rem;
+   color: #fff;
+}
+
+.Indep .content h2{
+    margin-top: -.5rem;
+   font-size: 1.8rem;
+   color: #fff;
+}
+
+.Indep .content p{
+   font-size: 1.4rem;
+   margin-bottom: 1rem;
+   color: #fff;
+}
+.Indep .content h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.Indep .date{
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    padding-left: 1.5rem;
+    width: 16rem;
+    left: -3rem;
+}
+.Indep .date h2{
+    font-size: 1.1rem;
+}
+
+ .Indep .count-down{
+    position: absolute;
+    top: 70%; right: 12rem;
+    letter-spacing: 2px;
+}
+.indep-down h2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.indep .count{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.count div{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    gap: .8rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+/* indep */
+
+
+
+
+     .footer{
+         width: 100%;
+         height: 15rem;
+         padding: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: rgba(54, 69, 79, .3);
+     }
+
+     .social_media{
+         display: flex;
+         align-items: center;
+         justify-content: ;
+         gap: 3rem;
+     }
+
+     .social_media a{
+         font-size: 2rem;
+         color: #333;
+     }
+
+     .social_media i{
+         padding-right: 1rem;
+     }
+   /* footer */
+
+
+   /* media querry */
+
+   @media(max-width:991px){
+
+ 
+    html{
+        font-size: 55%;
+
+    }
+
+    
+section {
+    padding: 1.5rem 3%;
+   }
+}
+
+@media (min-width:1024px) {
+    .content-welcome{
+        position: absolute;
+        margin-top: 70%rem;
+        left: 1.5rem;
+    }
+
+    .mission{
+        position: absolute;
+        margin-top: 70%rem;
+        right: 1.5rem;
+    }
+}
+
+@media(max-width:768px){
+    #menuBtn{
+        display: block;
+    }
+
+
+    .give .container .img-ctn{
+        display: none;
+    }
+    .signup .container .img-ctn{
+        display: none;
+    }
+    .login .container .img-ctn{
+        display: none;
+    }
+
+    .contact .cont_info .phone_img{
+        display: none;
+    }
+
+    .contact .cont_info{
+        display: grid;
+        gap: 2rem;
+        align-items: center;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .contact .cont_info .phone_img{
+        display: none;
+    }
+ 
+
+   
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        padding: 1.5rem 1.2rem;
+        background-color: rgba(0, 0, 0, .6) ;
+        top: 10%; left: 0 ; right: 0;
+       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+    }
+    
+    .links.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%,  0 100%);
+    }
+
+    
+
+    .links a{
+        display: block;
+        width: 100%;
+       margin: 1.2rem; 
+       color: #fff;
+   
+    }
+
+    .content-welcome h1{
+        font-size: 2.5rem;
+    }
+    .content-welcome h2{
+        font-size: 3.5rem;
+    }
+   
+    .mission{
+        position: absolute;
+        top: 40rem;
+    }
+    .mission h2{
+        font-size: 1.75rem;
+    }
+}
+
+
+@media(max-width:450px){
+    .content-welcome{
+        position: absolute;
+        top: 12rem; 
+        transform: translateX(-50);
+        width: 80%;
+        text-align: center;
+
+    }
+    .mission{
+        position: absolute;
+        top: 30rem; 
+        transform: translateX(-50);
+        width: 80%;
+        text-align: center;
+
+    }
+    .content-welcome h1{
+        font-size: 4rem;
+    }
+    .content-welcome h1{
+        font-size: 5rem;
+    }
+    .contact_content{
+        text-align: center;
+    }
+    .contact_content h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:320px){
+
+    .content-welcome{
+        text-align: start;
+    }
+    .content-welcome h1{
+        font-size: 2rem;
+    }
+    .content-welcome h1{
+        font-size: 2.5rem;
+    }
+
+    .give .container form{
+         width: 98%;
+    }
+    .login .container form{
+         width: 98%;
+    }
+  
+    .signup .container form{
+         width: 98%;
+         height: 90vh;
+    }
+
+    .contact .church_info{
+        display: none;
+    }
+
+     .contact_content h1{
+        font-size: 1.5rem;
+    }
+   
+
+    .mission{
+        position: absolute;
+        top: 40rem; 
+        transform: translateX(-50);
+        text-align: start;
+        width: 80%;
+    
+
+    }
+
+   
+}
+
+
