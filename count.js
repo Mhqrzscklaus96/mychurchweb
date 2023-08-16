@@ -25,10 +25,10 @@ const invt = setInterval(()=>{
 
     /* display  */
     count.innerHTML = `
-                        <div>${Days} <span>Days</span></div>
-                        <div>${hours} <span>hours</span></div>
-                        <div>${Minitues} <span>minitues</span></div>
-                        <div>${seconds} <span>Seconds</span></div>
+                        <div >${Days} <span>Days</span></div>
+                        <div class"none">${hours} <span>hours</span></div>
+                        <div class"none">${Minitues} <span>minitues</span></div>
+                        <div class"none">${seconds} <span>Seconds</span></div>
                       `
 }, 1000)
 

@@ -1115,7 +1115,7 @@ input[type = "submit"]{
       width: 100vw;
       height: 100vh;
       background-color: #333;
-      background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/72bd0f730a92d6ca7cd9831594701284_1.jpg);
+      background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/praise\ \(2\).jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1166,6 +1166,7 @@ input[type = "submit"]{
   .evnt h3{
       font-size: 2rem;
       padding-bottom: .5rem;
+      color: #fff;
   }
   .evnt button{
       margin: .5rem 0;
@@ -1198,7 +1199,7 @@ input[type = "submit"]{
 
 .thanks .content{
     position: relative;
-    background-color: #1e1e4b;
+    background: rgba(0, 0, 0, .7);
     width: 60rem;
     height: 40rem;
     border-radius: 1rem;
@@ -1241,8 +1242,8 @@ input[type = "submit"]{
 
 .count-down{
     position: absolute;
-    top: 70%; right: 12rem;
-    letter-spacing: 2px;
+    top: 70%; right: 10rem;
+    letter-spacing: 1.5px;
 }
 .count-down h2{
     font-size: 1.5rem;
@@ -1348,10 +1349,10 @@ input[type = "submit"]{
     gap: 2rem;
 }
 
-.count div{
+.indep .count div{
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     flex-direction: column;
     gap: .8rem;
     color: #fff;
@@ -1363,7 +1364,472 @@ input[type = "submit"]{
 
 /* indep */
 
+/* sermon */
 
+   .sermon{
+       display: flex;
+       align-items: stretch;
+       width: 100vw;
+       height: 100vh;
+       padding: 0;
+       gap: 2rem;
+       background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/prais.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+
+   }
+
+
+
+   /* password reset */
+    .password_reset{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/prais.jpg);
+        background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+
+    .password_reset .container{
+     display: flex;
+     align-items: flex-start;
+     width: 50%;
+     padding: 2rem;
+     height: 70%;
+     background: rgba(0, 0, 0, .7);
+     border-radius: .5rem;
+     justify-content: stretch;
+     flex-direction: column;
+    }
+
+
+     
+    .password_reset .container a{
+        color: blue;
+        font-size: 1.3rem;
+        margin: 2rem autop;
+    }
+
+    .password_reset .container p{
+        color: #fff;
+        font-weight: lighter;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .password_reset .container h2{
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .password_reset .container h3{
+        font-size: 1.5rem;
+        color: #fff;
+        margin: .5rem 0;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .password_reset .container .line{
+        width: 100%;
+        height: .2rem;
+        background-color: #333;
+        margin-bottom: 1.5rem;
+    }
+
+    .password_reset .container input{
+        width: 100%;
+        border: .1rem solid  #A3A3E9;
+        height: 4rem;
+        border-radius: .5rem;
+        background: transparent;
+        color: #fff;
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .password_reset .container button{
+        display: block;
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: #fff;
+        border: none;
+        background-color: blue;
+        width: 100%;
+
+    }
+    .password_reset .container button:hover{
+        display: block;
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: blue;
+        font-weight: bold;
+        border: none;
+        background-color: #fff;
+        width: 100%;
+
+    }
+
+
+   /* password reset */
+
+   /* password reset */
+    .emaail{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/prais.jpg); 
+        background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+
+    .emaail .container{
+     display: flex;
+     align-items: flex-start;
+     width: 50%;
+     padding: 2rem;
+     height: 50%;
+     background: rgba(0, 0, 0, .7);
+     border-radius: .5rem;
+     justify-content: center;
+     flex-direction: column;
+    }
+
+
+     
+    .emaail .container a{
+        color: blue;
+        font-size: 1.3rem;
+        margin: 2rem auto;
+    }
+
+    .emaail .container p{
+        color: #fff;
+        font-weight: lighter;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .email .container h2{
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .emaail .container h3{
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: start;
+        margin: .5rem 0;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+    .emaail .container .line{
+        width: 100%;
+        height: .2rem;
+        background-color: #333;
+        margin-bottom: 1.5rem;
+    }
+
+    .emaail .container input{
+        width: 100%;
+        border: .1rem solid  #A3A3E9;
+        height: 4rem;
+        border-radius: .5rem;
+        background: transparent;
+        color: #fff;
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .emaail .container button{
+        display: block;
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: #fff;
+        border: none;
+        background-color: blue;
+        width: 100%;
+
+    }
+    .emaail .container button:hover{
+        display: block;
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: blue;
+        font-weight: bold;
+        border: none;
+        background-color: #fff;
+        width: 100%;
+
+    }
+
+
+   /* password reset */
+
+
+  /* liberation */
+   .isreal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/prais.jpg); 
+    background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   }
+
+
+   
+.isreal .content{
+    position: relative;
+    background: rgba(0, 0, 0, .7);
+    width: 60rem;
+    height: 40rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+
+.isreal .content h1{
+   font-size: 3.8rem;
+   color: #fff;
+}
+
+.isreal .content h2{
+    margin-top: -.5rem;
+   font-size: 3rem;
+   color: #fff;
+}
+
+.isreal .content p{
+   font-size: 1.4rem;
+   margin-bottom: 1rem;
+   color: #fff;
+}
+.isreal .content h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+
+
+  /* liberation */
+
+
+
+
+   /* successs */
+
+   .sucess{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6),rgba(0,0,0,.6) ), url(./img/prais.jpg);
+    background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.sucess .container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+    height: 35%;
+    background: rgba(0, 0, 0, .7);
+    border-radius: .5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sucess .container h2{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.sucess .container h3{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: .5rem 0;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+
+.sucess .container button{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #fff;
+    border: none;
+    background-color: blue;
+    width: 100%;
+
+}
+.sucess .container button:hover{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+
+}
+
+   /* successs */
+
+   .sermon .content{
+       position: relative;
+       margin-left: 15rem;
+       color: #fff;
+       background-color: rgba(0, 81, 255 , .3);
+       width: 100%;
+       height: 40rem;
+   }
+   .sermon .img-ctn{
+       width: 100%;
+       height: 100%;
+   }
+
+   .content .inner{
+       margin-top: 4rem;
+       position: absolute;
+       top: 0; left : 0; right: 0;
+       text-align: center;
+       transform: translateX(-50);
+   }
+
+   .sermon .img-ctn img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+   .inner h3{
+       font-size: 2rem;
+   }
+   .inner h1{
+       font-size: 5.5rem;
+       text-transform: uppercase;
+   }
+   .inner h4{
+       font-size: 2.5rem;
+       text-transform: uppercase;
+   }
+
+
+
+
+   .header1{
+       padding: 1.5rem 4rem;
+       display: flex;
+       align-items: center;
+       z-index: 4;
+       background-color: #0f2640;
+       color: #9f9fa0;
+       justify-content: space-between;
+   }
+
+   .right-ctn ul {
+       list-style: none;
+   }
+   .right-ctn li a{
+       font-size: 2.4rem;
+       color: #9f9fa0;
+   }
+   .right-ctn button{
+       background-color: #9f9fa0;
+       border: none;
+       font-weight: bold;
+       color: #0f2640;
+   }
+
+   .header1 .logo a{
+       
+       color: #9f9fa0;
+       text-decoration: none;
+       text-align: center;
+   }
+
+   .header1 .logo h1{
+       font-size: 1.2rem;
+   }
+
+   .right-ctn ul{
+       display: flex;
+       align-items: center;
+       gap: 1.5rem;
+       color: #9f9fa0;
+   }
+
+
+   .sermon .services h1{
+       font-size: 3rem;
+       text-transform: capitalize;
+       color: #fff;
+       margin: 1.5rem 0;
+   }
+
+   .sermon .services{
+       background-color: rgba(0, 0, 0, .8);
+       width:50rem;
+       color: #fff;
+   }
+
+   .services div{
+       background-color: #0f2640;
+       margin-bottom: 1.5rem;
+       display: flex;
+       color: #000;
+
+       justify-content: center;
+       padding-left: .5rem;
+       flex-direction: column;
+       width: 100%;
+       height: 6rem;
+       padding: .5rem;
+   }
+
+   p.title{
+       font-size: 1.75rem;
+       margin-bottom: .5rem;
+       font-weight: bold;
+   }
+   p{
+       font-size: 1.5rem;
+       margin-bottom: .5rem;
+   }
+   p.v{
+       font-weight: bold;
+   }
+
+
+/* sermon */
 
 
      .footer{
@@ -1379,7 +1845,7 @@ input[type = "submit"]{
      .social_media{
          display: flex;
          align-items: center;
-         justify-content: ;
+         justify-content: center;
          gap: 3rem;
      }
 
@@ -1402,6 +1868,15 @@ input[type = "submit"]{
     html{
         font-size: 55%;
 
+    }
+
+    .isreal .content{
+        position: relative;
+        background: rgba(0, 0, 0, .7);
+        width: 60rem;
+        height: 40rem;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
     }
 
     
@@ -1427,6 +1902,41 @@ section {
 @media(max-width:768px){
     #menuBtn{
         display: block;
+    }
+
+    .sermon .content{
+        position: relative;
+        margin-left: 4rem;
+        color: #fff;
+        background-color: rgba(0, 81, 255 , .3);
+        width: 100%;
+        height: 60rem;
+    }
+
+    .isreal .content{
+        position: relative;
+        background: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 40rem;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+    }
+
+
+
+    .sucess .container{
+        width: 100%;
+    }
+
+    .email .container{
+        width: 100%;
+    }
+    .password_reset .container{
+        width: 100%;
+    }
+
+    .play_icon{
+      display: none;
     }
 
 
@@ -1500,6 +2010,86 @@ section {
 }
 
 
+
+@media (max-width:520px){
+    .teach h1{
+        font-size: 1.8rem;
+    }
+    .teach .content h2{
+        font-size: 1.75rem;
+    }
+
+    .sermon{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .sermon .content .inner h1{
+      font-size: 3rem;
+    }
+
+    .youtube .img-ctn .content h1{
+        font-size: 2.5rem;
+    }
+    .youtube .img-ctn .content button{
+        margin-top: 4rem;
+        text-transform: capitalize;
+    }
+
+    .ministry .img-ctn .content h2{
+        font-size: 2rem;
+    }
+
+    .isreal .content{
+        position: relative;
+        background: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 40rem;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+    }
+
+    .ministry .img-ctn .content h1{
+        font-size: 3.5rem;
+    }
+
+
+    .sucess .container{
+        width: 100%;
+    }
+
+    .email .container{
+        width: 100%;
+    }
+    .password_reset .container{
+        width: 100%;
+    }
+
+    .play_icon{
+      display: none;
+    }
+
+
+    .play_icon{
+        position: absolute;
+        top: 55%; right: 2rem;
+    }
+
+    
+.thanks .content{
+    position: relative;
+    background-color: #1e1e4b;
+    width: 100%;
+    height: 40rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+
+}
+
 @media(max-width:450px){
     .content-welcome{
         position: absolute;
@@ -1509,6 +2099,76 @@ section {
         text-align: center;
 
     }
+
+
+    .isreal .content h1{
+        font-size: 3.5rem;
+    }
+
+    .isreal .content{
+        position: relative;
+        background: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 40rem;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+    }
+
+
+    .sucess .container{
+        width: 100%;
+    }
+
+    .email .container{
+        width: 100%;
+    }
+    .password_reset .container{
+        width: 100%;
+    }
+
+
+           
+.thanks .content h1{
+    font-size: 3rem;
+}
+
+
+
+        
+.thanks .content{
+    position: relative;
+    background-color:rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 40rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+
+}
+
+    .play_icon{
+      display: none;
+    }
+
+
+    .count-down{
+       display: none;
+    }
+
+    .count-down h2{
+
+        text-align: center;
+        font-size: .75rem;
+        margin-left: 8rem;
+    }
+
+
+    .thanks .count{
+        position: absolute;
+        top: 90%; left: 70%;
+        transform: translateX(50);
+    }
+
+
     .mission{
         position: absolute;
         top: 30rem; 
@@ -1529,6 +2189,10 @@ section {
     .contact_content h1{
         font-size: 3rem;
     }
+
+    .new-life .img-ctn , .life_anew{
+        width: 100%;
+    }
 }
 
 @media(max-width:320px){
@@ -1543,11 +2207,47 @@ section {
         font-size: 2.5rem;
     }
 
+
+    .isreal .content h1{
+        font-size: 3rem;
+    }
+
+    .isreal .content date h1,
+    h2{
+        font-size: 2.8rem;
+    }
+
+    .isreal .content{
+        position: relative;
+        background: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 40rem;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+    }
+
     .give .container form{
          width: 98%;
     }
     .login .container form{
          width: 98%;
+    }
+
+
+    .thanks .content h1{
+        font-size: 2.5rem;
+    }
+    
+
+    .count-down .count .none{
+        display: none;
+    }
+
+   .thanks .content .date h1{
+        font-size: 2.2rem;
+    }
+  .thanks .content  .date h2{
+        font-size: 1.75rem;
     }
   
     .signup .container form{
@@ -1562,6 +2262,15 @@ section {
      .contact_content h1{
         font-size: 1.5rem;
     }
+
+
+    .thanks .count{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
    
 
     .mission{
@@ -1573,8 +2282,17 @@ section {
     
 
     }
+    .footer .social_media a{
+        display: block;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .heading h2{
+        font-size: 2rem;
+    }
 
    
+}
 }
 
 
