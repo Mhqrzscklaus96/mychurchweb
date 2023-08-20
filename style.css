@@ -1634,6 +1634,39 @@ input[type = "submit"]{
 
 
 
+  /* about */
+.about{
+    padding: 2rem;
+    margin-top: 3rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.8),rgba(0,0,0,.8) ), url(./img/ind.jpg);
+    background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.about h2{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.about h1{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+.about p{
+    color: #fff;
+}
+
+  /* about */
+
+
    /* successs */
 
    .sucess{
@@ -1700,6 +1733,10 @@ input[type = "submit"]{
     width: 100%;
 
 }
+
+
+
+
 
    /* successs */
 
@@ -2016,6 +2053,21 @@ section {
         font-size: 1.75rem;
     }
 
+
+    
+    .church_info{
+        display: none;
+    }
+
+    .cont_info {
+        width: 100vw;
+        padding: 1.5rem;
+    }
+
+    .member_info form {
+        width: 94vw;
+    }
+
     .sermon{
         height: 100vh;
         display: flex;
@@ -2128,6 +2180,11 @@ section {
         width: 80%;
         text-align: center;
 
+    }
+
+
+    .church_info{
+        display: none;
     }
 
 
